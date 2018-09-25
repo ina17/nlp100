@@ -7,6 +7,10 @@
 第4章の残りの問題では，ここで作ったプログラムを活用せよ．
 """
 
+__author__ = "tina"
+__version__ = "0.0.1"
+__date__    = "2018/09/26" 
+
 import MeCab
 import re
 
