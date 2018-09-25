@@ -30,8 +30,8 @@ def get_parse_line(line):
     num = int(len(items) / 10)
 
     for i in range(num):
-        parse_lst.append({"surface": items[10 * i],"base": items[10 * i + 6], "pos": items[10 * i + 1], "pos1": items[10 * i + 2]})
+        parse_lst.append({"surface": items[10 * i],"base": items[10 * i + 7], "pos": items[10 * i + 1], "pos1": items[10 * i + 2]})
     return parse_lst
     
 def test():
-    map_morpheme()
+    print(map_morpheme())
