@@ -3,11 +3,11 @@
 import sys
 from Chapter1 import _00, _01, _02, _03, _04, _05, _06, _07, _08, _09
 from Chapter2 import _10, _11, _12, _13
-from Chapter4 import _30, _31
+from Chapter4 import _30, _31, _32
 
 
 if __name__ == "__main__":
-    problem_idx = 31
+    problem_idx = 32
 
     if len(sys.argv) == 2:
         problem_idx = int(sys.argv[1])
